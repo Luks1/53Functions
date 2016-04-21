@@ -5,7 +5,7 @@ var assert = require('assert');
 
 describe("upper", function(){
 
-    it("should uppercase 'ZEBRAS' ", function(){
+    it("it should return uppercase 'ZEBRAS' ", function(){
         //TODO: call your function and use assert to check the result
         var result = upper("zebras");
         assert.equal(result, "ZEBRAS");
